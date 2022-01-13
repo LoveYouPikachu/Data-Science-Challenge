@@ -20,4 +20,4 @@ for i in range(2,maxrow+1):
     tisum=tisum+sheet.cell(i,ti).value #get the sum of total_items
 print(tisum)
 aov=round(oasum/tisum,2)
-print(aov)
+print(aov)#output
