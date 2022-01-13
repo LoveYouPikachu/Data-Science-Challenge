@@ -41,6 +41,7 @@ For this question you’ll need to use SQL. Follow this link (https://www.w3scho
 ## Answers: 
 
 1. How many orders were shipped by Speedy Express in total? 
+
    In total, 54 Orders were shipped by Speedy Express.
 
 2. What is the last name of the employee with the most orders?
