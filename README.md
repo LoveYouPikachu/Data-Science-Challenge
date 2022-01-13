@@ -7,7 +7,7 @@ Question 1: Given some sample data, write a program to answer the following: cli
 
 On Shopify, we have exactly 100 sneaker shops, and each of these shops sells only one model of shoe. We want to do some analysis of the average order value (AOV). When we look at orders data over a 30 day window, we naively calculate an AOV of $3145.13. Given that we know these shops are selling sneakers, a relatively affordable item, something seems wrong with our analysis. 
 
-        a.	Think about what could be going wrong with our calculation. Think about a better way to evaluate this data. 
+        a.Think about what could be going wrong with our calculation. Think about a better way to evaluate this data. 
 The incorrect AOV calculation of $3145.13 was most likely arrived at by mistakenly calculating the total_items with the count() function instead of sum().count() will only provide the total count of the number of rows . Sum() will add together all of the values in the total_items column. So will get Sum(order_amount)/5000=3145.13, which is heavy number. If we use function Sum(), we will get  Sum(order_amount)/43936=357.92.
           b.	What metric would you report for this dataset?
             for i in range(1,maxlum+1):
@@ -24,8 +24,7 @@ The incorrect AOV calculation of $3145.13 was most likely arrived at by mistaken
           357.92
 
 Question 2: For this question you’ll need to use SQL. Follow this link to access the data set required for the challenge. Please use queries to answer the following questions. Paste your queries along with your final numerical answers below.
-
-      a.	How many orders were shipped by Speedy Express in total?
+      a.    How many orders were shipped by Speedy Express in total?
 SELECT count(a.OrderID) FROM Orders a join Shippers b
 where a.shipperID=b.shipperID and b.ShipperName="Speedy Express"In total, 54 Orders were shipped by Speedy Express.
       b.	What is the last name of the employee with the most orders?
