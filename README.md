@@ -28,7 +28,7 @@
 
 3. The Average Order Value (AOV) is: $357.92 
 
-VIEW CODE HERE: 
+VIEW CODE HERE: https://github.com/LoveYouPikachu/Data-Science-Challenge/blob/master/Data-Science-Intern-Challenge-Question-1.py
 
 ## Question 2: 
 
